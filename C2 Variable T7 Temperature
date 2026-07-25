@@ -1,6 +1,30 @@
 # Operators
 Data = 0
-Data
-Data
-Data
-Data
+Data = 23 + 4  #Addition
+Data = 27 - 17   #Subtraction
+Data = 17 * 4   #Multiplication
+Data = 64/4    #Division
+
+print(Data) 
+
+Tab = 20.00
+Phone = 5.00
+Total = Tab + Phone
+Tip = Total * 0.1
+print(Tip)
+
+#Task
+'''
+Create a temperature.py program that converts a number from Fahrenheit (°F) to Celsius (°C).
+Google the current temperature of Brooklyn, NY (where Codédex is based) in °F.
+Use the following formula and write it out in Python:
+
+Celsius  =  (Fahrenheit−32)
+                 1.8
+​ 
+Print out the converted temperature. 🌡️
+'''
+#TaskCode
+Fahrenheit = 158.0
+print(Fahrenheit-32/1.8)  
+
