@@ -26,5 +26,6 @@ Print out the converted temperature. 🌡️
 '''
 #TaskCode
 Fahrenheit = 158.0
-print(Fahrenheit-32/1.8)  
+Celsius = Fahrenheit-32/1.8
+print(Celsius)
 
